@@ -6,6 +6,6 @@ salarioAntes = float(input("Digite o sálario antes do aumento: "))
 salarioDepois = float(input("Digite o salário pós aumento: "))
 
 aumento = salarioDepois - salarioAntes
-salarioNovo = aumento * 100 / salarioDepois
+salarioNovo = (aumento * 100) / salarioAntes
 
 print("O aumento foi de",aumento,"ou seja", int(salarioNovo), "porcento")
